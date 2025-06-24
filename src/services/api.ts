@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { User, Todo, AuthResponse } from '../types';
 
-const API_BASE_URL = 'https://todo-backend-93bh.onrender.com';
+const API_BASE_URL = 'https://todo-backend-93bh.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
